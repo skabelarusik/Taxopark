@@ -1,0 +1,5 @@
+Car Toyota 5000 7.0 Petrol 8 4 Yellow
+Car Geely 2800 8.5 Petrol 7 4 White
+Car Totyota 8500 6.5 Diesel 4 4 Red
+BuS IKArus 12000  12.4 PETROL 14 40 RED
+Car Lada 2800 10.0 Gaz 11 4 Yellow

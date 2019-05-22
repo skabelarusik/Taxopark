@@ -1,0 +1,1136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="81a3bfc1-0109-4f18-a9b4-e30934a7ae54" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__Arquillian_TestNG_Release.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Soft.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/testng_6_8_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Taxopark.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/epam/taxopark/comparator/AgeComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/epam/taxopark/comparator/CostComporator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/epam/taxopark/comparator/TypeComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/epam/taxopark/creator/CreatorMassivVar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/epam/taxopark/dataread/EnumTypeSelector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/epam/taxopark/dataread/FileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/epam/taxopark/entity/Transport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/epam/taxopark/entity/TypeFuel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/epam/taxopark/entity/TypeTransport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/epam/taxopark/entity/bus/Bus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/epam/taxopark/entity/bus/Ikarus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/epam/taxopark/entity/bus/Maz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/epam/taxopark/entity/bus/MersedesBus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/epam/taxopark/entity/car/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/epam/taxopark/entity/car/Geely.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/epam/taxopark/entity/car/Hyundai.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/epam/taxopark/entity/car/Lada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/epam/taxopark/entity/car/Toyota.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/epam/taxopark/entity/microbus/Gazel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/epam/taxopark/entity/microbus/Mersedes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/epam/taxopark/entity/microbus/Microbus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/epam/taxopark/entity/microbus/Peugeot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/epam/taxopark/exception/CustomException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/epam/taxopark/exception/FileNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/epam/taxopark/exception/WrongEnumTypeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/epam/taxopark/factory/FabrikTransportCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/epam/taxopark/factory/TransportCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/epam/taxopark/repository/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/epam/taxopark/repository/TransportRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/epam/taxopark/resourses/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/epam/taxopark/resourses/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/epam/taxopark/specification/AgeSpecification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/epam/taxopark/specification/CostSpecification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/epam/taxopark/specification/FuelFlowSpecification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/epam/taxopark/specification/NameSpecification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/epam/taxopark/specification/Specification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/epam/taxopark/specification/TypeSpecification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/epam/taxopark/validator/Checker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/epam/taxopark/validator/ValidatorVar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/by/epam/taxopark/creator/CreatorMassivVarTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/by/epam/taxopark/dataread/EnumTypeSelectorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/by/epam/taxopark/dataread/FileReaderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/by/epam/taxopark/factory/FabrikTransportCreatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/by/epam/taxopark/factory/TransportCreatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/by/epam/taxopark/repository/TransportRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/by/epam/taxopark/resourses/ParametresTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/by/epam/taxopark/resourses/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/by/epam/taxopark/validator/CheckerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/by/epam/taxopark/validator/ValidatorVarTest.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/by/epam/taxopark/repository/TransportRepositoryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1649">
+              <caret line="118" column="82" selection-start-line="118" selection-start-column="82" selection-end-line="118" selection-end-column="82" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/epam/taxopark/repository/Repository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/epam/taxopark/dataread/FileReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="21" selection-start-line="21" selection-end-line="21" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/epam/taxopark/creator/CreatorMassivVar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/epam/taxopark/validator/ValidatorVar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="697">
+              <caret line="41" column="47" selection-start-line="41" selection-end-line="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/epam/taxopark/factory/FabrikTransportCreator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1394">
+              <caret line="98" column="9" selection-start-line="98" selection-start-column="9" selection-end-line="98" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/by/epam/taxopark/validator/Checker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1054">
+              <caret line="62" column="9" lean-forward="true" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/epam/taxopark/exception/CustomException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/epam/taxopark/dataread/EnumTypeSelector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1122">
+              <caret line="68" column="59" selection-start-line="68" selection-start-column="59" selection-end-line="68" selection-end-column="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Arquillian JUnit Test Class" />
+        <option value="Arquillian TestNG Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/by/epam/taxopark/entity/car/Geely.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/taxopark/dataread/Reader.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/javatraining/krupin/tasks/task1/model/logic/EnumSelector.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/taxopark/dataread/EnumSelector.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/taxopark/entity/Transport.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/taxopark/dataread/CreatorMassivVar.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/javatraining/krupin/tasks/task1/model/logic/TransportCreator.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/javatraining/krupin/tasks/task1/utils/MyException.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/javatraining/krupin/tasks/task1/model/data/repository/TransportRepository.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/javatraining/krupin/tasks/task1/model/data/repository/Repository.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/taxopark/TypeComparator.java" />
+        <option value="$PROJECT_DIR$/input.txt" />
+        <option value="$PROJECT_DIR$/src/by/epam/taxopark/MainTest.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/taxopark/exception/TaxoparkException.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/taxopark/resourses/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/by/epam/taxopark/dataread/FileReaderTest.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/taxopark/exception/FileNotFoundException.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/taxopark/exception/WrongEnumTypeException.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/taxopark/entity/TypeFuel.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/taxopark/exception/CustomException.java" />
+        <option value="$PROJECT_DIR$/test/by/epam/taxopark/resourses/test.txt" />
+        <option value="$PROJECT_DIR$/src/by/epam/taxopark/Main.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/taxopark/dataread/EnumTypeSelector.java" />
+        <option value="$PROJECT_DIR$/test/by/epam/taxopark/dataread/EnumTypeSelectorTest.java" />
+        <option value="$PROJECT_DIR$/test/by/epam/taxopark/dataread/FileReaderTest.java" />
+        <option value="$PROJECT_DIR$/test/by/epam/taxopark/creator/CreatorMassivVarTest.java" />
+        <option value="$PROJECT_DIR$/test/by/epam/taxopark/validator/ValidatorVarTest.java" />
+        <option value="$PROJECT_DIR$/test/by/epam/taxopark/validator/CheckerTest.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/taxopark/entity/TypeTransport.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/taxopark/factory/TransportCreator.java" />
+        <option value="$PROJECT_DIR$/test/by/epam/taxopark/factory/TransportCreatorTest.java" />
+        <option value="$PROJECT_DIR$/test/by/epam/taxopark/factory/FabrikTransportCreatorTest.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/taxopark/factory/FabrikTransportCreator.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/taxopark/comparator/TypeComparator.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/taxopark/comparator/CostComporator.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/taxopark/comparator/AgeComparator.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/taxopark/specification/AgeSpecification.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/taxopark/specification/CostSpecification.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/taxopark/specification/FuelFlowSpecification.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/taxopark/specification/NameSpecification.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/taxopark/specification/Specification.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/taxopark/specification/TypeSpecification.java" />
+        <option value="$PROJECT_DIR$/test/by/epam/taxopark/resourses/ParametresTest.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/taxopark/repository/Repository.java" />
+        <option value="$PROJECT_DIR$/test/by/epam/taxopark/repository/TransportRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/taxopark/dataread/FileReader.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/taxopark/repository/TransportRepository.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/taxopark/creator/CreatorMassivVar.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/taxopark/validator/ValidatorVar.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/taxopark/validator/Checker.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="38" />
+    <option name="y" value="5" />
+    <option name="width" value="1534" />
+    <option name="height" value="1069" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Taxopark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Taxopark" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Taxopark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Taxopark" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Taxopark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Taxopark" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Taxopark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Taxopark" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
+              <item name="epam" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Taxopark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Taxopark" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
+              <item name="epam" type="462c0819:PsiDirectoryNode" />
+              <item name="taxopark" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Taxopark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Taxopark" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
+              <item name="epam" type="462c0819:PsiDirectoryNode" />
+              <item name="taxopark" type="462c0819:PsiDirectoryNode" />
+              <item name="creator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Taxopark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Taxopark" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
+              <item name="epam" type="462c0819:PsiDirectoryNode" />
+              <item name="taxopark" type="462c0819:PsiDirectoryNode" />
+              <item name="dataread" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Taxopark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Taxopark" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
+              <item name="epam" type="462c0819:PsiDirectoryNode" />
+              <item name="taxopark" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Taxopark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Taxopark" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
+              <item name="epam" type="462c0819:PsiDirectoryNode" />
+              <item name="taxopark" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Taxopark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Taxopark" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
+              <item name="epam" type="462c0819:PsiDirectoryNode" />
+              <item name="taxopark" type="462c0819:PsiDirectoryNode" />
+              <item name="resourses" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Taxopark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Taxopark" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
+              <item name="epam" type="462c0819:PsiDirectoryNode" />
+              <item name="taxopark" type="462c0819:PsiDirectoryNode" />
+              <item name="specification" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Taxopark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Taxopark" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
+              <item name="epam" type="462c0819:PsiDirectoryNode" />
+              <item name="taxopark" type="462c0819:PsiDirectoryNode" />
+              <item name="validator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Taxopark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian TestNG" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian TestNG" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="by.epam.taxopark.dataread" />
+      <recent name="by.epam.taxopark" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+      <recent name="org.jboss.arquillian.testng.Arquillian" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\Taxopark" />
+      <recent name="C:\Users\User\IdeaProjects\Taxopark\src" />
+      <recent name="C:\Users\User\IdeaProjects\Taxopark\src\by\epam\taxopark\resourses" />
+      <recent name="C:\Users\User\IdeaProjects\Taxopark\src\by\epam\taxopark\recourses" />
+      <recent name="C:\Users\User\IdeaProjects\Taxopark\src\by\epam\taxopark\data" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.TransportRepositoryTest.testQueryNullSpecific">
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="test" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="test" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransportRepositoryTest.testQuery" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Taxopark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.epam.taxopark.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.epam.taxopark.repository" />
+      <option name="MAIN_CLASS_NAME" value="by.epam.taxopark.repository.TransportRepositoryTest" />
+      <option name="METHOD_NAME" value="testQuery" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransportRepositoryTest.testQueryNullSpecific" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Taxopark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.epam.taxopark.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.epam.taxopark.repository" />
+      <option name="MAIN_CLASS_NAME" value="by.epam.taxopark.repository.TransportRepositoryTest" />
+      <option name="METHOD_NAME" value="testQueryNullSpecific" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransportRepositoryTest.testSortNullSpecif" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Taxopark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.epam.taxopark.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.epam.taxopark.repository" />
+      <option name="MAIN_CLASS_NAME" value="by.epam.taxopark.repository.TransportRepositoryTest" />
+      <option name="METHOD_NAME" value="testSortNullSpecif" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransportRepositoryTest.testSortSpecAndComporator" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Taxopark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.epam.taxopark.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.epam.taxopark.repository" />
+      <option name="MAIN_CLASS_NAME" value="by.epam.taxopark.repository.TransportRepositoryTest" />
+      <option name="METHOD_NAME" value="testSortSpecAndComporator" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransportRepositoryTest.testSummCost" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Taxopark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.epam.taxopark.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.epam.taxopark.repository" />
+      <option name="MAIN_CLASS_NAME" value="by.epam.taxopark.repository.TransportRepositoryTest" />
+      <option name="METHOD_NAME" value="testSummCost" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.TransportRepositoryTest.testSortSpecAndComporator" />
+      <item itemvalue="TestNG.TransportRepositoryTest.testSortNullSpecif" />
+      <item itemvalue="TestNG.TransportRepositoryTest.testSummCost" />
+      <item itemvalue="TestNG.TransportRepositoryTest.testQuery" />
+      <item itemvalue="TestNG.TransportRepositoryTest.testQueryNullSpecific" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TransportRepositoryTest.testQueryNullSpecific" />
+        <item itemvalue="TestNG.TransportRepositoryTest.testQuery" />
+        <item itemvalue="TestNG.TransportRepositoryTest.testSummCost" />
+        <item itemvalue="TestNG.TransportRepositoryTest.testSortNullSpecif" />
+        <item itemvalue="TestNG.TransportRepositoryTest.testSortSpecAndComporator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="81a3bfc1-0109-4f18-a9b4-e30934a7ae54" name="Default Changelist" comment="" />
+      <created>1556792347020</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556792347020</updated>
+      <workItem from="1556792349780" duration="9876000" />
+      <workItem from="1556872142234" duration="24071000" />
+      <workItem from="1557054961287" duration="8686000" />
+      <workItem from="1557138503410" duration="4514000" />
+      <workItem from="1557159429614" duration="1487000" />
+      <workItem from="1557469172140" duration="3314000" />
+      <workItem from="1557481204566" duration="12570000" />
+      <workItem from="1557512642904" duration="8222000" />
+      <workItem from="1557553359231" duration="57000" />
+      <workItem from="1557553508058" duration="549000" />
+      <workItem from="1557759258441" duration="6688000" />
+      <workItem from="1557822529293" duration="1074000" />
+      <workItem from="1557824337017" duration="1785000" />
+      <workItem from="1557826910609" duration="840000" />
+      <workItem from="1557830213430" duration="1776000" />
+      <workItem from="1557832791761" duration="1005000" />
+      <workItem from="1557835928695" duration="1514000" />
+      <workItem from="1557837933034" duration="1657000" />
+      <workItem from="1557843670100" duration="1212000" />
+      <workItem from="1557846994817" duration="1782000" />
+      <workItem from="1557855746601" duration="1784000" />
+      <workItem from="1557859424257" duration="2108000" />
+      <workItem from="1557862157242" duration="1819000" />
+      <workItem from="1557864189522" duration="1036000" />
+      <workItem from="1557866244997" duration="1447000" />
+      <workItem from="1557873967082" duration="1783000" />
+      <workItem from="1557875775276" duration="214000" />
+      <workItem from="1557947175117" duration="36000" />
+      <workItem from="1558547400111" duration="731000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TransportRepositoryTest_testAddNullTransport - 2019.05.15 at 01h 57m 18s.xml">
+      <configuration name="TransportRepositoryTest.testAddNullTransport" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TransportRepositoryTest_testRemove - 2019.05.15 at 01h 57m 20s.xml">
+      <configuration name="TransportRepositoryTest.testRemove" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TransportRepositoryTest_testRemoveIdMoreSize - 2019.05.15 at 01h 57m 22s.xml">
+      <configuration name="TransportRepositoryTest.testRemoveIdMoreSize" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TransportRepositoryTest_testSort - 2019.05.15 at 01h 57m 25s.xml">
+      <configuration name="TransportRepositoryTest.testSort" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TransportRepositoryTest_testSortNullComparator - 2019.05.15 at 01h 57m 26s.xml">
+      <configuration name="TransportRepositoryTest.testSortNullComparator" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TransportRepositoryTest_testSortSpecAndComporator - 2019.05.15 at 01h 57m 28s.xml">
+      <configuration name="TransportRepositoryTest.testSortSpecAndComporator" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TransportRepositoryTest_testSortNullSpecif - 2019.05.15 at 01h 57m 30s.xml">
+      <configuration name="TransportRepositoryTest.testSortNullSpecif" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TransportRepositoryTest_testSummCost - 2019.05.15 at 01h 57m 33s.xml">
+      <configuration name="TransportRepositoryTest.testSummCost" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TransportRepositoryTest_testQuery - 2019.05.15 at 01h 57m 35s.xml">
+      <configuration name="TransportRepositoryTest.testQuery" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TransportRepositoryTest_testQueryNullSpecific - 2019.05.15 at 01h 57m 38s.xml">
+      <configuration name="TransportRepositoryTest.testQueryNullSpecific" configurationId="TestNG" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="103637000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="38" y="5" width="1534" height="1069" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36567163" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32870865" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32142857" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4047619" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32792208" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/by/epam/taxopark/entity/car/Geely.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/javatraining/krupin/tasks/task1/utils/MyException.java" />
+    <entry file="file://$PROJECT_DIR$/src/by/epam/javatraining/krupin/tasks/task1/model/logic/ListTransportCreator.java" />
+    <entry file="file://$PROJECT_DIR$/src/by/epam/javatraining/krupin/tasks/task1/model/logic/MyComparator.java" />
+    <entry file="file://$PROJECT_DIR$/src/by/epam/taxopark/MainTest.java" />
+    <entry file="file://$PROJECT_DIR$/out/production/Taxopark/by/epam/taxopark/dataread/EnumTypeSelector.class" />
+    <entry file="file://$PROJECT_DIR$/src/by/epam/taxopark/dataread/FileReaderTest.java" />
+    <entry file="file://$PROJECT_DIR$/rs.txt" />
+    <entry file="file://$PROJECT_DIR$/src/by/epam/taxopark/resourses/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/taxopark/exception/TaxoparkException.java" />
+    <entry file="file://$PROJECT_DIR$/src/by/epam/taxopark/exception/FileNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <element signature="e#130#131#0" expanded="true" />
+            <element signature="e#153#154#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/taxopark/exception/WrongEnumTypeException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/taxopark/Main.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2346">
+          <caret line="164" column="11" selection-start-line="164" selection-start-column="11" selection-end-line="164" selection-end-column="11" />
+          <folding>
+            <element signature="e#6283#6284#0" expanded="true" />
+            <element signature="e#6351#6352#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/by/epam/taxopark/resourses/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/taxopark/resourses/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/by/epam/taxopark/dataread/FileReaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/taxopark/entity/TypeFuel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/taxopark/entity/bus/Ikarus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/taxopark/entity/bus/Bus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/taxopark/entity/bus/Maz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/taxopark/entity/TypeTransport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/by/epam/taxopark/factory/TransportCreatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="22" column="32" selection-start-line="21" selection-start-column="7" selection-end-line="22" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/taxopark/entity/Transport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" selection-start-line="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/taxopark/comparator/TypeComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/taxopark/comparator/CostComporator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/taxopark/comparator/AgeComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/taxopark/specification/AgeSpecification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/taxopark/specification/CostSpecification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/by/epam/taxopark/factory/FabrikTransportCreatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="32" column="54" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/taxopark/factory/TransportCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" column="88" selection-start-line="20" selection-start-column="88" selection-end-line="20" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/by/epam/taxopark/resourses/ParametresTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/by/epam/taxopark/dataread/EnumTypeSelectorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" selection-start-line="9" selection-end-line="12" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java" />
+    <entry file="file://$PROJECT_DIR$/test/by/epam/taxopark/validator/CheckerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1496">
+          <caret line="114" column="21" selection-start-line="114" selection-start-column="21" selection-end-line="114" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/by/epam/taxopark/validator/ValidatorVarTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" selection-start-line="6" selection-end-line="9" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/taxopark/specification/FuelFlowSpecification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/taxopark/specification/NameSpecification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/taxopark/specification/Specification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/taxopark/specification/TypeSpecification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/by/epam/taxopark/creator/CreatorMassivVarTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/taxopark/repository/TransportRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="36" column="31" selection-start-line="36" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2238#2239#0" expanded="true" />
+            <element signature="e#2282#2283#0" expanded="true" />
+            <element signature="e#3570#3571#0" expanded="true" />
+            <element signature="e#3621#3622#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/by/epam/taxopark/repository/TransportRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1649">
+          <caret line="118" column="82" selection-start-line="118" selection-start-column="82" selection-end-line="118" selection-end-column="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/taxopark/repository/Repository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/taxopark/dataread/FileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="21" selection-start-line="21" selection-end-line="21" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/taxopark/creator/CreatorMassivVar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/taxopark/validator/ValidatorVar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="47" selection-start-line="41" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/taxopark/factory/FabrikTransportCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1394">
+          <caret line="98" column="9" selection-start-line="98" selection-start-column="9" selection-end-line="98" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/taxopark/exception/CustomException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/taxopark/dataread/EnumTypeSelector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="68" column="59" selection-start-line="68" selection-start-column="59" selection-end-line="68" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/taxopark/validator/Checker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="62" column="9" lean-forward="true" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Taxopark</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>testng-6.8.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
